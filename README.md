@@ -27,7 +27,7 @@
 
 <p>Para inicializar esse projeto em sua máquina será necessário usar os seguinte comandos(como o node instalado):</p>
 
-Intalar as depêndencias
+Intalar as dependências
 ``` npm install ```
 <br>
 Iniciar o projeto localmente
