@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+## dtmoney
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Esse projeto foi desenvolvido no curso Ignite e se trata de uma aplicação para controlar finanças pessoais, onde o usuário pode criar novas transações sejam elas de entrada ou de saída, apartir das transações adicionadas o app calcula e mostra o resultado desse calculo.</p>
 
-## Available Scripts
+### Segue algumas imagens da aplicação:
+<img width="100%" src="https://media-exp3.licdn.com/dms/image/C5622AQFVzYxV5YHiug/feedshare-shrink_2048_1536/0/1626212373229?e=1629331200&v=beta&t=2WKNZ4WonL1wPknV4gw7jsOXCEapWcRCvaNHGrvJD3c" alt="Página Dashboard"></img>
 
-In the project directory, you can run:
+### Tecnologias e bibliotecas utilizadas:
 
-### `yarn start`
+<b>Linguagem</b>
+- Typescript(React).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<b>Bibliotecas</b>
+- <a href="https://axios-http.com/docs/intro" >axios</a> (requisições a api);
+- <a href="https://miragejs.com/" >miragejs</a> (fake API);
+- <a href="https://styled-components.com/" >styled-components</a> (estilização);
+- <a href="https://polished.js.org/" >polished</a> (efeito em cores);
+- <a href="https://github.com/reactjs/react-modal" >react-modal</a> (modal);
 
-### `yarn test`
+## Inicializar projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>Para inicializar esse projeto em sua máquina será necessário usar os seguinte comandos(como o node instalado):</p>
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Intalar as depêndencias
+``` npm install ```
+<br>
+Iniciar o projeto localmente
+```npm run dev```
